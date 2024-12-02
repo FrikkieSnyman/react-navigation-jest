@@ -17,3 +17,19 @@ In `App.tsx`, on line 19, the linking config is enabled or disabled.
 When disabled, running `yarn test` works fine, and the tests in `__tests__/App-test.tsx` passes as expected.
 
 However, when setting `enabled` to `true`, the tests break. The reason behind the breakage is unclear - I would love some help here.
+
+## Getting started
+
+Clone the repo, then run:
+
+```bash
+yarn
+```
+
+followed by
+
+```bash
+yarn test
+```
+
+Make changes to `App.tsx` line 19 to see breaking vs non-breaking behaviour.
